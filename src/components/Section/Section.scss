@@ -1,0 +1,65 @@
+@import 'base';
+
+.container {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  padding: 3.5em 1em;
+  background-color: $bg-color;
+}
+
+.title {
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  h2 {
+    margin: 0;
+    font-size: 2em;
+  }
+  color: $sectionHeaderTextColor;
+}
+
+.text {
+  margin: 0 1em;
+  line-height: 1.5em;
+  font-family: 'Merriweather', serif;
+  text-align: center;
+  p {
+    text-align: left;
+  }
+  @include MQ(SM) {
+    margin: 0 auto;
+    font-size: 20px;
+    width: 450px;
+    line-height: 29px;
+    text-align: center;
+  }
+}
+
+.separator {
+  color: $mediumGray;
+  margin: 1.5em auto;
+  position: relative;
+  z-index: 3;
+  width: 12em;
+}
+
+.lineSeparator {
+  &:before {
+    display: block;
+    border: 1px solid $mediumGray;
+    width: 40%;
+    content: ' ';
+    position: absolute;
+    top: 50%;
+    left: 5%;
+  }
+  &:after {
+    display: block;
+    border: 1px solid $mediumGray;
+    width: 40%;
+    content: ' ';
+    position: absolute;
+    top: 50%;
+    right: 5%;
+  }
+}

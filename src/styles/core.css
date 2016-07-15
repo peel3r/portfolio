@@ -1,0 +1,54 @@
+/*
+Error: CSS import directives may only be used at the root of a document.
+        on line 5 of core.scss
+
+1: @import 'base';
+2: @import 'vendor/normalize';
+3: 
+4: :global {
+5:   @import './../../node_modules/weathericons/css/weather-icons.min.css';
+6: }
+7: 
+8: :global {
+9:   @font-face {
+10:     font-family: 'weathericons';
+
+Backtrace:
+core.scss:5
+/Users/pawel/.rbenv/versions/2.2.2/lib/ruby/gems/2.2.0/gems/sass-3.4.22/lib/sass/tree/visitors/check_nesting.rb:15:in `visit'
+/Users/pawel/.rbenv/versions/2.2.2/lib/ruby/gems/2.2.0/gems/sass-3.4.22/lib/sass/tree/visitors/base.rb:52:in `block in visit_children'
+/Users/pawel/.rbenv/versions/2.2.2/lib/ruby/gems/2.2.0/gems/sass-3.4.22/lib/sass/tree/visitors/base.rb:52:in `map'
+/Users/pawel/.rbenv/versions/2.2.2/lib/ruby/gems/2.2.0/gems/sass-3.4.22/lib/sass/tree/visitors/base.rb:52:in `visit_children'
+/Users/pawel/.rbenv/versions/2.2.2/lib/ruby/gems/2.2.0/gems/sass-3.4.22/lib/sass/tree/visitors/check_nesting.rb:51:in `visit_children'
+/Users/pawel/.rbenv/versions/2.2.2/lib/ruby/gems/2.2.0/gems/sass-3.4.22/lib/sass/tree/visitors/base.rb:38:in `visit'
+/Users/pawel/.rbenv/versions/2.2.2/lib/ruby/gems/2.2.0/gems/sass-3.4.22/lib/sass/tree/visitors/check_nesting.rb:17:in `visit'
+/Users/pawel/.rbenv/versions/2.2.2/lib/ruby/gems/2.2.0/gems/sass-3.4.22/lib/sass/tree/visitors/base.rb:52:in `block in visit_children'
+/Users/pawel/.rbenv/versions/2.2.2/lib/ruby/gems/2.2.0/gems/sass-3.4.22/lib/sass/tree/visitors/base.rb:52:in `map'
+/Users/pawel/.rbenv/versions/2.2.2/lib/ruby/gems/2.2.0/gems/sass-3.4.22/lib/sass/tree/visitors/base.rb:52:in `visit_children'
+/Users/pawel/.rbenv/versions/2.2.2/lib/ruby/gems/2.2.0/gems/sass-3.4.22/lib/sass/tree/visitors/check_nesting.rb:51:in `visit_children'
+/Users/pawel/.rbenv/versions/2.2.2/lib/ruby/gems/2.2.0/gems/sass-3.4.22/lib/sass/tree/visitors/base.rb:36:in `block in visit'
+/Users/pawel/.rbenv/versions/2.2.2/lib/ruby/gems/2.2.0/gems/sass-3.4.22/lib/sass/tree/visitors/check_nesting.rb:59:in `visit_root'
+/Users/pawel/.rbenv/versions/2.2.2/lib/ruby/gems/2.2.0/gems/sass-3.4.22/lib/sass/tree/visitors/base.rb:36:in `visit'
+/Users/pawel/.rbenv/versions/2.2.2/lib/ruby/gems/2.2.0/gems/sass-3.4.22/lib/sass/tree/visitors/check_nesting.rb:17:in `visit'
+/Users/pawel/.rbenv/versions/2.2.2/lib/ruby/gems/2.2.0/gems/sass-3.4.22/lib/sass/tree/visitors/base.rb:24:in `visit'
+/Users/pawel/.rbenv/versions/2.2.2/lib/ruby/gems/2.2.0/gems/sass-3.4.22/lib/sass/tree/root_node.rb:35:in `css_tree'
+/Users/pawel/.rbenv/versions/2.2.2/lib/ruby/gems/2.2.0/gems/sass-3.4.22/lib/sass/tree/root_node.rb:29:in `render_with_sourcemap'
+/Users/pawel/.rbenv/versions/2.2.2/lib/ruby/gems/2.2.0/gems/sass-3.4.22/lib/sass/engine.rb:381:in `_render_with_sourcemap'
+/Users/pawel/.rbenv/versions/2.2.2/lib/ruby/gems/2.2.0/gems/sass-3.4.22/lib/sass/engine.rb:298:in `render_with_sourcemap'
+/Users/pawel/.rbenv/versions/2.2.2/lib/ruby/gems/2.2.0/gems/sass-3.4.22/lib/sass/plugin/compiler.rb:492:in `update_stylesheet'
+/Users/pawel/.rbenv/versions/2.2.2/lib/ruby/gems/2.2.0/gems/sass-3.4.22/lib/sass/plugin/compiler.rb:215:in `block in update_stylesheets'
+/Users/pawel/.rbenv/versions/2.2.2/lib/ruby/gems/2.2.0/gems/sass-3.4.22/lib/sass/plugin/compiler.rb:209:in `each'
+/Users/pawel/.rbenv/versions/2.2.2/lib/ruby/gems/2.2.0/gems/sass-3.4.22/lib/sass/plugin/compiler.rb:209:in `update_stylesheets'
+/Users/pawel/.rbenv/versions/2.2.2/lib/ruby/gems/2.2.0/gems/sass-3.4.22/lib/sass/plugin.rb:82:in `update_stylesheets'
+/Users/pawel/.rbenv/versions/2.2.2/lib/ruby/gems/2.2.0/gems/sass-3.4.22/lib/sass/exec/sass_scss.rb:340:in `watch_or_update'
+/Users/pawel/.rbenv/versions/2.2.2/lib/ruby/gems/2.2.0/gems/sass-3.4.22/lib/sass/exec/sass_scss.rb:51:in `process_result'
+/Users/pawel/.rbenv/versions/2.2.2/lib/ruby/gems/2.2.0/gems/sass-3.4.22/lib/sass/exec/base.rb:52:in `parse'
+/Users/pawel/.rbenv/versions/2.2.2/lib/ruby/gems/2.2.0/gems/sass-3.4.22/lib/sass/exec/base.rb:19:in `parse!'
+/Users/pawel/.rbenv/versions/2.2.2/lib/ruby/gems/2.2.0/gems/sass-3.4.22/bin/scss:13:in `<top (required)>'
+/Users/pawel/.rbenv/versions/2.2.2/bin/scss:23:in `load'
+/Users/pawel/.rbenv/versions/2.2.2/bin/scss:23:in `<main>'
+*/
+body:before {
+  white-space: pre;
+  font-family: monospace;
+  content: "Error: CSS import directives may only be used at the root of a document.\A         on line 5 of core.scss\A \A 1: @import 'base';\A 2: @import 'vendor/normalize';\A 3: \A 4: :global {\A 5:   @import './../../node_modules/weathericons/css/weather-icons.min.css';\A 6: }\A 7: \A 8: :global {\A 9:   @font-face {\A 10:     font-family: 'weathericons';"; }

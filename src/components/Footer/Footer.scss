@@ -1,0 +1,14 @@
+@import 'base';
+
+.container {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  color: $headerTextColor;
+  width: 100%;
+  height: $menuBarHeight;
+  background: #a3a3a3;
+  a {
+    color: $headerTextColor;
+  }
+}
