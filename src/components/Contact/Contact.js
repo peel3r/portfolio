@@ -30,7 +30,7 @@ export default class Contact extends Component {
         <div className={sty.map} style={style}><h2>Get in touch</h2></div>
         <div className={sty.content}>
           <div className={sty.form}>
-            <h3>Shoot me a message</h3>
+            <h3></h3>
             <form className='form' ref='form' onSubmit={(e) => this.handleSubmit(e)}>
               <input
                 type="text"

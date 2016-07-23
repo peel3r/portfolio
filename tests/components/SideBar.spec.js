@@ -92,12 +92,12 @@ describe('(Component) SideBar', function() {
     expect(actualType).to.equal(expectedType)
   })
 
-  it('should have a dropdown component with as many link as the dropDownLinks props', function () {
-    const actual = ShallowTestUtils.findWithType(component, DropDown).props.dropDownLinks
-    const expected = props.dropDownLinks
-    expect(actual).to.equal(expected)
-    // console.log(util.inspect(actual))
-  })
+  // it('should have a dropdown component with as many link as the dropDownLinks props', function () {
+  //   const actual = ShallowTestUtils.findWithType(component, DropDown).props.dropDownLinks
+  //   const expected = props.dropDownLinks
+  //   expect(actual).to.equal(expected)
+  //   // console.log(util.inspect(actual))
+  // })
 
   it('div with class mobileNavOffTrigger should dispatch a sidebarActivate action when clicked', function() {
     const actual = TestUtils.findRenderedDOMComponentWithClass(rendered, sty.mobileNavOffTrigger)

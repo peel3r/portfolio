@@ -63,12 +63,12 @@ describe('(Component) MenuBar', function() {
     expect(actual.children.length).to.equal(props.menuLinks.length)
   })
 
-  it('should have a dropdown component with as many link as the dropDownLinks props', function () {
-    const actual = ShallowTestUtils.findWithType(component, DropDown).props.dropDownLinks
-    const expected = props.dropDownLinks
-    expect(actual).to.equal(expected)
-    // console.log(util.inspect(actual))
-  })
+  // it('should have a dropdown component with as many link as the dropDownLinks props', function () {
+  //   const actual = ShallowTestUtils.findWithType(component, DropDown).props.dropDownLinks
+  //   const expected = props.dropDownLinks
+  //   expect(actual).to.equal(expected)
+  //   // console.log(util.inspect(actual))
+  // })
 
   it('should have a hamburger component with class mobileNavTrigger', function() {
     const actual = ShallowTestUtils.findWithClass(component, `${sty.mobileNavTrigger}`)

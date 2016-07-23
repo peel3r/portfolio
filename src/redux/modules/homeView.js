@@ -21,9 +21,9 @@ export const actions = {
  */
 const initialState = {
   headerImage: 'https://images.unsplash.com/photo-1453475250267-163ff185e88e?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&s=c7f88b0371f15fb21b2dd9b8f30530df',
-  headerText: "peel3r.",
-  headerParagraph: "web developer",
-  portfolio: [
+  headerText: "peel3r",
+  headerParagraph: "web developer"
+  // portfolio: [
     // {
     //   title: 'Escape Room SA',
     //   link: 'http://escaperoomsa.com.au/',
@@ -38,7 +38,7 @@ const initialState = {
     //   introText: 'A simple pomodoro timer built with React.js',
     //   description: "I built this application as a project for FreeCodeCamp. The focus of this app was on simplicity and displaying useful metric to keep the user motivated."
     // }
-  ]
+  // ]
 }
 
 export const homeView = handleActions({

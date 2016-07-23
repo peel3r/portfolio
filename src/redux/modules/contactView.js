@@ -78,17 +78,16 @@ export const actions = {
 }
 const initialState = {
   contact: {
-    github: 'https://github.com/wwwfreedom',
-    codepen: 'http://codepen.io/wwwfreedom/',
-    fcc: 'http://www.freecodecamp.com/wwwfreedom',
-    map: 'http://maps.googleapis.com/maps/api/staticmap?center=Richmond+south+australia&zoom=12&scale=2&size=600x300&maptype=roadmap&format=png&visual_refresh=true',
+    github: 'https://github.com/peel3r',
+    codepen: 'http://codepen.io/peel3r/',
+    fcc: 'http://www.freecodecamp.com/peel3r',
+    map: 'http://maps.googleapis.com/maps/api/staticmap?center=Glasgow&zoom=8&scale=2&size=600x300&maptype=roadmap&format=png&visual_refresh=true',
     formInput: {
       name: '',
-      namePlaceholder: 'How should I call you?',
-      // might not even need the email
+      namePlaceholder: 'Name?',
       email: '',
-      emailPlaceholder: 'Please enter your email...',
-      messagePlaceholder: 'What would you like to say?',
+      emailPlaceholder: 'Email...',
+      messagePlaceholder: 'Text',
       message: ''
     },
     formStatus: {

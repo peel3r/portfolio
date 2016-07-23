@@ -32,6 +32,6 @@ export default (
     <Route path='/Calculator' component={Calculator} />
     <Route path='/SimonGame' component={SimonGame} />
     <Route path='/TicTacToe' component={TicTacToe} />
-    <Route path='/Portfolio' component={Portfolio} />
+    <Route path='/Utilities' component={Portfolio} />
   </Route>
 )

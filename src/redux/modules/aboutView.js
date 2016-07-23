@@ -22,9 +22,9 @@ export const actions = {
 const initialState = {
   about: {
     title: 'About Me',
-    introText: "I'm a self-taught web developer based in Adelaide. My passion is to solve interesting problems using innovative web technologies. Lately, I've been making web applications with React.js. If you're interested in my work, check out my portfolio and say hi."
+    introText: "I'm a web developer based in UK. I solve interesting problems using innovative web technologies. I develop web applications using React Stack."
   },
-  image: 'https://images.unsplash.com/photo-1438354886727-070458b3b5cf?crop=entropy&fit=crop&fm=jpg&h=825&ixjsv=2.1.0&ixlib=rb-0.3.5&q=80&w=1450'
+  image: 'https://images.unsplash.com/photo-1461295025362-7547f63dbaea?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&s=9c3c96e59ca6b6e66358b9bc2b8ad815'
 }
 
 /**

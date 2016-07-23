@@ -1,7 +1,7 @@
 {
-  "name": "FreeCodeCampZiplinesRepo",
+  "name": "pjportfolio",
   "version": "9.0.0",
-  "description": "A repository for all ziplines projects from Free Code Camp",
+  "description": "",
   "main": "index.js",
   "scripts": {
     "clean": "rm -rf dist",
@@ -18,9 +18,9 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/wwwfreedom/FreeCodeCamp"
+    "url": "git+https://github.com/peel3r/portfolio"
   },
-  "author": "Kevin Truong",
+  "author": "Peel3r",
   "license": "MIT",
   "dependencies": {
     "classnames": "^2.2.1",
