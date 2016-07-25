@@ -28,7 +28,7 @@ export const contactFormSubmit = (payload) => {
   return (dispatch, getState) => {
     $.ajax({
       type: 'POST',
-      url: 'http://formspree.io/ismc2222@gmail.com',
+      url: 'https://formspree.io/ismc2222@gmail.com',
       data: `name=${payload.name}&email=${payload.email}&textarea=${payload.message}&_gotcha=`,
       dataType: 'json',
       success: function (data) {

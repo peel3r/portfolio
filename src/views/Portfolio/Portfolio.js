@@ -6,49 +6,49 @@ const projects = [
   {
     name: 'Quote Generator',
     description: 'Tweet and Share.',
-    image: 'http://i.imgur.com/NTVKdeT.png',
+    image: 'https://i.imgur.com/l6F7lQQ.png',
     link: 'quoteGenerator'
   },
   {
     name: 'Weather App',
     description: '',
-    image: 'http://i.imgur.com/gpOj6rf.png',
+    image: 'https://i.imgur.com/ZgfiZ7H.png',
     link: 'weather'
   },
   {
     name: 'Wikipedia Search',
     description: "Search Wikipedia",
-    image: 'http://i.imgur.com/yVYtLa3.png',
+    image: 'https://i.imgur.com/vMmehco.png  ',
     link: 'wikipedia'
   },
   {
     name: 'Twitch Streamers',
     description: 'Online status of Twitch streamers.',
-    image: 'http://i.imgur.com/14LOigT.png',
+    image: 'https://i.imgur.com/GqTIjmh.png',
     link: 'twitch'
   },
   {
     name: 'Calculator',
     description: 'A simple calculator.',
-    image: 'http://i.imgur.com/GUR45JT.png',
+    image: 'https://i.imgur.com/9u6MNrd.png',
     link: 'calculator'
   },
   {
     name: 'PomoTime',
     description: 'Pomodoro Timer',
-    image: 'http://i.imgur.com/vvEZbX8.png',
+    image: 'https://i.imgur.com/aRUaT1B.png ',
     link: 'pomoTime'
   },
   {
     name: 'Tic Tac Toe',
     description: 'Tic Tac Toe && artificial intelligence',
-    image: 'http://i.imgur.com/WStyuor.png',
+    image: 'https://i.imgur.com/I1Hsu5f.png',
     link: 'TicTacToe'
   },
   {
     name: 'Simon Game',
     description: 'A simple Simon Game',
-    image: 'http://i.imgur.com/kgz9g7o.png',
+    image: 'https://i.imgur.com/WgIGO0R.png',
     link: 'SimonGame'
   }
 ]

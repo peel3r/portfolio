@@ -53,11 +53,11 @@ describe('(Component) Portfolio', function () {
     expect(actual).to.equal(expected)
   })
 
-  it('should display portfolio introText according to props', function () {
-    const actual = ShallowTestUtils.findWithType(component, 'h4').props.children
-    const expected = props.portfolio[0].introText
-    expect(actual).to.equal(expected)
-  })
+  // it('should display portfolio introText according to props', function () {
+  //   const actual = ShallowTestUtils.findWithType(component, 'h4').props.children
+  //   const expected = props.portfolio[0].introText
+  //   expect(actual).to.equal(expected)
+  // })
 
   it('should display portfolio description according to props', function () {
     const actual = ShallowTestUtils.findWithType(component, 'p').props.children

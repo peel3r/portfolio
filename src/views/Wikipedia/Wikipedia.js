@@ -27,7 +27,7 @@ export default class Wikipedia extends Component {
     const {searchInput, fetchWikiIfNeeded, searchInputSet, isFetching, articles} = this.props
     return (
       <div className={sty.container}>
-        <h1>Simple English Wikipedia Search</h1>
+        <h1>Wikipedia Search</h1>
         <Button
           text={'get random article'}
           href='http://simple.wikipedia.org/wiki/Special:Random'

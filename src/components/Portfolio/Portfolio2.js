@@ -4,18 +4,18 @@ import { Link } from 'react-router'
 
 // import escaperoomsa from '../../../src/'
 
-export default function Portfolio ({portfolio}) {
+export default function Portfolio2 ({portfolio2}) {
   return (
     <div className={sty.container}>
-      {renderContent(portfolio)}
+      {renderContent(portfolio2)}
     </div>
   )
 }
 
-function renderContent (portfolio) {
+function renderContent (portfolio2) {
   return (
     <div className={sty.innerContainer}>
-      {portfolio.map((item, index) =>
+      {portfolio2.map((item, index) =>
         <div className={sty.content} key={index}>
           <div className={sty[`image${index + 1}`]}>
             <div className={sty.imageHeader}>
@@ -32,6 +32,7 @@ function renderContent (portfolio) {
             </div>
             <div className={sty.description}><p>{item.description}</p></div>
             <div className={sty.technologies}><strong>Technologies: </strong><h4>{item.technologies}</h4></div>
+
             {renderLinks(item)}
           </div>
         </div>
@@ -60,6 +61,6 @@ function renderLinks (item) {
 }
 
 // lesson: remember if want to [] notation of accessing object for more complex query of dynamic properties
-Portfolio.propTypes = {
-  portfolio: React.PropTypes.array.isRequired
+Portfolio2.propTypes = {
+  portfolio2: React.PropTypes.array.isRequired
 }
