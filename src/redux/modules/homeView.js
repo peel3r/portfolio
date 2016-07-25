@@ -70,6 +70,13 @@ const initialState = {
       image: 'https://imgur.com/pi5xAZg.png',
       introText: 'Arnold Clark’s website that takes images of used cars from a caching server',
       description: "Build with Ruby on Rails, javaScript, jQuery, published on Heroku"
+    },
+    {
+      title: 'Conwey’s classic Game of Life without Canvas',
+      link: 'http://peel3r.github.io/2015/05/12/conweys-classic-game-of-life-without-canvas/',
+      image: 'https://imgur.com/OZvUh7Q.png',
+      introText: 'Click on fields to make them alive according to the game rules',
+      description: " Any live cell with fewer than two live neighbours dies, as if caused by under-population. Any live cell with two or three live neighbours lives on to the next generation. Any live cell with more than three live neighbours dies, as if by overcrowding. Any dead cell with exactly three live neighbours becomes a live cell, as if by reproduction."
     }
   ]
 }
