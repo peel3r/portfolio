@@ -30,7 +30,7 @@ function renderContent (portfolio) {
             <div className={sty.separator}>
               <div className={sty.lineSeparator}>∎</div>
             </div>
-            <div className={sty.description}><p>{item.description}</p></div>
+            <div className={sty.description}><strong>Projects: </strong><p>{item.description}</p></div>
             <div className={sty.technologies}><strong>Technologies: </strong><h4>{item.technologies}</h4></div>
             {renderLinks(item)}
           </div>
@@ -45,7 +45,7 @@ function renderLinks (item) {
   // test doesn't like includes so I'll implement lodash solution
   if (includes(item.link, 'http:')) {
     return (
-      <a href={item.link} target='_blank' className={sty.link}> View Project</a>
+      <a href={item.link} target='_blank' className={sty.link}> View</a>
     )
   } else {
     return (

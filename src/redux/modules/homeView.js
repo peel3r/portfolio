@@ -28,18 +28,17 @@ const initialState = {
       title: 'Nevaya',
       link: 'http://www.nevaya.co.uk',
       image: 'https://imgur.com/2IPAsFI.png',
-      introText: 'I comaintained (large 10 y old codebase) main 3 applications Nevaya TV, Nevaya Network, Nevaya Support.',
-      description: "	•	Api for reception services and a front end app ( Nevaya Reception) to consume this api, using Ruby on Rails, React, jQuery, Babel, Webpack, Gulp. It’s a very simple app allowing reception staff to look over Hotel rooms, check in and out guests and read/ send  rooms messages.•	Dashboard feature for the nevaya support app supporting management with various data nsight like open closed tickets ratios, alerts on overdue items, sorting and making queries, using Rails, Ruby, jQuery, Datatable •	Survey app for field engineers to asses Hotel network, using Rails, Datatable, Editable, Javascript, jQuery.",
-      technologies: "Ruby, Ruby on Rails, jQuery, Backbone, React, JS, Moment.js, Datatable, jQuery UI"
-
+      introText: '(team of 3 developers)',
+      description: '1.Survey Tool  Responsible for design development and deployment 2. Dashboard feature Responsible for design development and deployment 3. Reception app Responsible for design development, deployment and integration with main Nevaya app',
+      technologies: 'Ruby on Rails, jQuery, JavaScript, Html, Css, Sass, DataTable, Capistrano,Git, Github, AWS, ULM diagrams, software engineering documentation, React, Babel, Webpack, Expect, Mocha, JSON, npm, FireBase, Moment.js'
     },
     {
       title: 'Sky Saga',
       link: 'http://www.skysaga.com/en',
       image: 'https://imgur.com/SoGbJ9r.png',
-      introText: 'Developed user profile, worked on Skysaga website',
-      description: "I developed User Profile functionality for Radiant Worlds main website. Using SkySaga game, Discourse forum, Facebook, Twitter API’s I exposed  data ( User Avatar, Time in Game, Rankings, Forum posts…) on User Profile",
-      technologies: "Ruby, Ruby on Rails, jQuery, Backbone, React, JS, Haml, Handlebars, Sass, Moment.js"
+      introText: '(team of 2 web developers, 3 data analysts, 2 dev ops, and publishing team)',
+      description: "1. User profile feature Responsible for user profile design, development and deployment, tests first approach(TDD) and integration with Skysaga game and Discours service",
+      technologies: "Ruby on Rails, Rspec, Cucumber, Javascript, jQuery, JSON, Html, Css, Sass, MySQL , PostgreSQL, Moment.js, Capistrano, Git, API development"
 
     }
   ],
@@ -48,17 +47,17 @@ const initialState = {
       title: 'Fibro Trust',
       link: 'http://fibrotrust.org/',
       image: 'https://imgur.com/OGZu3VX.png',
-      introText: 'Mobile optimized Fibromyalgia Trust website',
-      description: "Build with Wordpress, connected to Twitter, Facebook, Yahoo Pipes",
-      technologies: "Wordpress, Html, Css, JS, jQuery, VPS"
+      introText: '(team of one)',
+      description: "1. Time tracker for staff members Responsible for design development and deployment. 2.Search engine for fibromyalgia Responsible for design development and deployment",
+      technologies: "Wordpress, Ruby on Rails, JavaScript, Css, Html, jQuery, Heroku, MySQL, Git, Github VPS, Apache Solr, Apache Nutch, BlackNight gem,  AWS, PostgreSQL"
     },
     {
       title: 'Pain Manager',
       link: 'http://boiling-oasis-7267.herokuapp.com/',
       image: 'https://imgur.com/yYG5lqx.png',
       introText: 'Pain Manager App',
-      description: "Pain Manager application is designed to help people witch chronic pain to manage theirs condition. User can record their daily pain statistic. Before going to a GP user can print pain statistic and show them during the visit.",
-      technologies: "Ruby, Ruby on Rails, jQuery, JS, Heroku"
+      description: "Chronic pain diary to help in pain management. Responsible for design development and deployment",
+      technologies: "Ruby on Rails, JavaScript, jQuery, Css, Html, Sass, Rspec, AWS(EC2, S3, Route 53), Capistrano, MySQL "
     }
 
   ],

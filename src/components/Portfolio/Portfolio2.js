@@ -46,7 +46,7 @@ function renderLinks (item) {
   // test doesn't like includes so I'll implement lodash solution
   if (includes(item.link, 'http:')) {
     return (
-      <a href={item.link} target='_blank' className={sty.link}> View Project</a>
+      <a href={item.link} target='_blank' className={sty.link}> View</a>
     )
   } else {
     return (
