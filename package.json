@@ -18,7 +18,6 @@
     "serve": "better-npm-run start",
     "postinstall": "npm run deploy:prod"
   },
-
   "repository": {
     "type": "git",
     "url": "git+https://github.com/peel3r/portfolio"
@@ -26,6 +25,7 @@
   "author": "Peel3r",
   "license": "MIT",
   "dependencies": {
+    "bootstrap": "^3.3.7",
     "classnames": "^2.2.1",
     "compression": "^1.6.2",
     "cross-env": "^2.0.0",
@@ -71,7 +71,8 @@
     "semantic-ui-css": "^2.2.2",
     "tostr": "^0.1.0",
     "weathericons": "^2.0.10",
-    "yargs": "^3.18.0"
+    "yargs": "^3.18.0",
+    "youtube-api-search": "0.0.5"
   },
   "devDependencies": {
     "babel-core": "^6.3.17",
