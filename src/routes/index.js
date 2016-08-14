@@ -15,6 +15,8 @@ import Calculator from 'views/Calculator/Calculator'
 import Weather from 'views/Weather/Weather'
 import Twitch from 'views/Twitch/Twitch'
 import Wikipedia from 'views/Wikipedia/Wikipedia'
+import Youtube from 'views/Youtube/youtubeSearch'
+
 import Portfolio from 'views/Portfolio/Portfolio'
 import TicTacToe from 'views/TicTacToe/TicTacToe'
 import SimonGame from 'views/SimonGame/SimonGame'
@@ -27,6 +29,7 @@ export default (
     <Route path='/quoteGenerator' component={QuoteView} />
     <Route path='/pomotime' component={PomoTime} />
     <Route path='/Wikipedia' component={Wikipedia} />
+    <Route path='/Youtube' component={Youtube} />
     <Route path='/Twitch' component={Twitch} />
     <Route path='/Weather' component={Weather} />
     <Route path='/Calculator' component={Calculator} />

@@ -22,6 +22,12 @@ const projects = [
     link: 'wikipedia'
   },
   {
+    name: 'Youtube Search',
+    description: "Search Wikipedia",
+    image: 'https://i.imgur.com/vMmehco.png  ',
+    link: 'youtube'
+  },
+  {
     name: 'Twitch Streamers',
     description: 'Online status of Twitch streamers.',
     image: 'https://i.imgur.com/GqTIjmh.png',
