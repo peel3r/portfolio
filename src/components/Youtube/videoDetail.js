@@ -1,4 +1,5 @@
 import React, {PropTypes} from 'react'
+import sty from './videoDetail.scss'
 
 const videoDetail = ({video}) => {
   if (!video) {
@@ -7,15 +8,19 @@ const videoDetail = ({video}) => {
   const videoId = video.id.videoId
   const url = `https://www.youtube.com/embed/${videoId}`
   return (
-      <div className="video-detail col-md-8" >
-        <div className="embed-responsive embed-responsive-16by9">
-          <iframe className="embed-responsive-item" src={url}></iframe>
-        </div>
-        <div className="details">
-          <div>{video.snippet.title}</div>
-          <div>{video.snippet.description}</div>
+    <div>
+      <div className="col-md-8" >
+        <div className={sty.container}>
+          <div className="embed-responsive embed-responsive-16by9">
+            <iframe className="embed-responsive-item" src={url}></iframe>
+          </div>
+          <div className={sty.text}>
+            <div>{video.snippet.title}</div>
+            <div>{video.snippet.description}</div>
+          </div>
         </div>
       </div>
+    </div>
     )
 }
 

@@ -1,0 +1,56 @@
+/*
+Error: File to import not found or unreadable: base.
+        on line 1 of style.scss
+
+1: @import 'base';
+2: .container {
+3:   display: flex;
+4:   flex-direction: column;
+5:   width: 280px;
+6:   overflow: hidden;
+
+Backtrace:
+style.scss:1
+/Users/pawel/.rbenv/versions/2.2.2/lib/ruby/gems/2.2.0/gems/sass-3.4.22/lib/sass/tree/import_node.rb:67:in `rescue in import'
+/Users/pawel/.rbenv/versions/2.2.2/lib/ruby/gems/2.2.0/gems/sass-3.4.22/lib/sass/tree/import_node.rb:45:in `import'
+/Users/pawel/.rbenv/versions/2.2.2/lib/ruby/gems/2.2.0/gems/sass-3.4.22/lib/sass/tree/import_node.rb:28:in `imported_file'
+/Users/pawel/.rbenv/versions/2.2.2/lib/ruby/gems/2.2.0/gems/sass-3.4.22/lib/sass/tree/import_node.rb:37:in `css_import?'
+/Users/pawel/.rbenv/versions/2.2.2/lib/ruby/gems/2.2.0/gems/sass-3.4.22/lib/sass/tree/visitors/perform.rb:313:in `visit_import'
+/Users/pawel/.rbenv/versions/2.2.2/lib/ruby/gems/2.2.0/gems/sass-3.4.22/lib/sass/tree/visitors/base.rb:36:in `visit'
+/Users/pawel/.rbenv/versions/2.2.2/lib/ruby/gems/2.2.0/gems/sass-3.4.22/lib/sass/tree/visitors/perform.rb:160:in `block in visit'
+/Users/pawel/.rbenv/versions/2.2.2/lib/ruby/gems/2.2.0/gems/sass-3.4.22/lib/sass/stack.rb:79:in `block in with_base'
+/Users/pawel/.rbenv/versions/2.2.2/lib/ruby/gems/2.2.0/gems/sass-3.4.22/lib/sass/stack.rb:115:in `with_frame'
+/Users/pawel/.rbenv/versions/2.2.2/lib/ruby/gems/2.2.0/gems/sass-3.4.22/lib/sass/stack.rb:79:in `with_base'
+/Users/pawel/.rbenv/versions/2.2.2/lib/ruby/gems/2.2.0/gems/sass-3.4.22/lib/sass/tree/visitors/perform.rb:160:in `visit'
+/Users/pawel/.rbenv/versions/2.2.2/lib/ruby/gems/2.2.0/gems/sass-3.4.22/lib/sass/tree/visitors/base.rb:52:in `block in visit_children'
+/Users/pawel/.rbenv/versions/2.2.2/lib/ruby/gems/2.2.0/gems/sass-3.4.22/lib/sass/tree/visitors/base.rb:52:in `map'
+/Users/pawel/.rbenv/versions/2.2.2/lib/ruby/gems/2.2.0/gems/sass-3.4.22/lib/sass/tree/visitors/base.rb:52:in `visit_children'
+/Users/pawel/.rbenv/versions/2.2.2/lib/ruby/gems/2.2.0/gems/sass-3.4.22/lib/sass/tree/visitors/perform.rb:169:in `block in visit_children'
+/Users/pawel/.rbenv/versions/2.2.2/lib/ruby/gems/2.2.0/gems/sass-3.4.22/lib/sass/tree/visitors/perform.rb:181:in `with_environment'
+/Users/pawel/.rbenv/versions/2.2.2/lib/ruby/gems/2.2.0/gems/sass-3.4.22/lib/sass/tree/visitors/perform.rb:168:in `visit_children'
+/Users/pawel/.rbenv/versions/2.2.2/lib/ruby/gems/2.2.0/gems/sass-3.4.22/lib/sass/tree/visitors/base.rb:36:in `block in visit'
+/Users/pawel/.rbenv/versions/2.2.2/lib/ruby/gems/2.2.0/gems/sass-3.4.22/lib/sass/tree/visitors/perform.rb:188:in `visit_root'
+/Users/pawel/.rbenv/versions/2.2.2/lib/ruby/gems/2.2.0/gems/sass-3.4.22/lib/sass/tree/visitors/base.rb:36:in `visit'
+/Users/pawel/.rbenv/versions/2.2.2/lib/ruby/gems/2.2.0/gems/sass-3.4.22/lib/sass/tree/visitors/perform.rb:159:in `visit'
+/Users/pawel/.rbenv/versions/2.2.2/lib/ruby/gems/2.2.0/gems/sass-3.4.22/lib/sass/tree/visitors/perform.rb:8:in `visit'
+/Users/pawel/.rbenv/versions/2.2.2/lib/ruby/gems/2.2.0/gems/sass-3.4.22/lib/sass/tree/root_node.rb:36:in `css_tree'
+/Users/pawel/.rbenv/versions/2.2.2/lib/ruby/gems/2.2.0/gems/sass-3.4.22/lib/sass/tree/root_node.rb:29:in `render_with_sourcemap'
+/Users/pawel/.rbenv/versions/2.2.2/lib/ruby/gems/2.2.0/gems/sass-3.4.22/lib/sass/engine.rb:381:in `_render_with_sourcemap'
+/Users/pawel/.rbenv/versions/2.2.2/lib/ruby/gems/2.2.0/gems/sass-3.4.22/lib/sass/engine.rb:298:in `render_with_sourcemap'
+/Users/pawel/.rbenv/versions/2.2.2/lib/ruby/gems/2.2.0/gems/sass-3.4.22/lib/sass/plugin/compiler.rb:492:in `update_stylesheet'
+/Users/pawel/.rbenv/versions/2.2.2/lib/ruby/gems/2.2.0/gems/sass-3.4.22/lib/sass/plugin/compiler.rb:215:in `block in update_stylesheets'
+/Users/pawel/.rbenv/versions/2.2.2/lib/ruby/gems/2.2.0/gems/sass-3.4.22/lib/sass/plugin/compiler.rb:209:in `each'
+/Users/pawel/.rbenv/versions/2.2.2/lib/ruby/gems/2.2.0/gems/sass-3.4.22/lib/sass/plugin/compiler.rb:209:in `update_stylesheets'
+/Users/pawel/.rbenv/versions/2.2.2/lib/ruby/gems/2.2.0/gems/sass-3.4.22/lib/sass/plugin.rb:82:in `update_stylesheets'
+/Users/pawel/.rbenv/versions/2.2.2/lib/ruby/gems/2.2.0/gems/sass-3.4.22/lib/sass/exec/sass_scss.rb:340:in `watch_or_update'
+/Users/pawel/.rbenv/versions/2.2.2/lib/ruby/gems/2.2.0/gems/sass-3.4.22/lib/sass/exec/sass_scss.rb:51:in `process_result'
+/Users/pawel/.rbenv/versions/2.2.2/lib/ruby/gems/2.2.0/gems/sass-3.4.22/lib/sass/exec/base.rb:52:in `parse'
+/Users/pawel/.rbenv/versions/2.2.2/lib/ruby/gems/2.2.0/gems/sass-3.4.22/lib/sass/exec/base.rb:19:in `parse!'
+/Users/pawel/.rbenv/versions/2.2.2/lib/ruby/gems/2.2.0/gems/sass-3.4.22/bin/scss:13:in `<top (required)>'
+/Users/pawel/.rbenv/versions/2.2.2/bin/scss:23:in `load'
+/Users/pawel/.rbenv/versions/2.2.2/bin/scss:23:in `<main>'
+*/
+body:before {
+  white-space: pre;
+  font-family: monospace;
+  content: "Error: File to import not found or unreadable: base.\A         on line 1 of style.scss\A \A 1: @import 'base';\A 2: .container {\A 3:   display: flex;\A 4:   flex-direction: column;\A 5:   width: 280px;\A 6:   overflow: hidden;"; }

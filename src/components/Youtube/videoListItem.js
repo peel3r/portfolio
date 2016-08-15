@@ -1,10 +1,12 @@
 import React from 'react'
+import sty from './style.scss'
 
-const VideoListItem = ({video}) => {
+const VideoListItem = ({video, onVideoSelect}) => {
   const imageUrl = video.snippet.thumbnails.default.url
+
   return (
-    <li className="list-group-item">
-      <div className="video-list media">
+    <div className={sty.container} onClick={ () => onVideoSelect(video) } >
+      <div>
         <div className="media-left">
           <img className="media-object" src={imageUrl} />
         </div>
@@ -12,7 +14,7 @@ const VideoListItem = ({video}) => {
           <div className="media-heading">{video.snippet.title}</div>
         </div>
       </div>
-    </li>
+    </div>
   )
 }
 export default VideoListItem

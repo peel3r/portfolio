@@ -27,7 +27,10 @@ export default class Youtube extends Component {
         <h1>Youtube Search</h1>
         <SearchBar />
         <VideoDetail video={this.state.selectedVideo} />
-        <VideoList videos={this.state.videos} />
+        <VideoList
+          videos={this.state.videos}
+          onVideoSelect={selectedVideo => this.setState({selectedVideo})}
+        />
       </div>
     )
   }
