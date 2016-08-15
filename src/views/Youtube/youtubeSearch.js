@@ -23,9 +23,11 @@ export default class Youtube extends Component {
   }
   render() {
   return (
-      <div className="container-fluid">
+      <div className="container">
+        <div className="center-block">
         <h1>Youtube Search</h1>
         <SearchBar />
+          </div>
         <VideoDetail video={this.state.selectedVideo} />
         <VideoList
           videos={this.state.videos}

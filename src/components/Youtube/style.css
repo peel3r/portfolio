@@ -6,7 +6,7 @@ Error: File to import not found or unreadable: base.
 2: .container {
 3:   display: flex;
 4:   flex-direction: column;
-5:   width: 280px;
+5:   width: 100%;
 6:   overflow: hidden;
 
 Backtrace:
@@ -53,4 +53,4 @@ style.scss:1
 body:before {
   white-space: pre;
   font-family: monospace;
-  content: "Error: File to import not found or unreadable: base.\A         on line 1 of style.scss\A \A 1: @import 'base';\A 2: .container {\A 3:   display: flex;\A 4:   flex-direction: column;\A 5:   width: 280px;\A 6:   overflow: hidden;"; }
+  content: "Error: File to import not found or unreadable: base.\A         on line 1 of style.scss\A \A 1: @import 'base';\A 2: .container {\A 3:   display: flex;\A 4:   flex-direction: column;\A 5:   width: 100%;\A 6:   overflow: hidden;"; }
