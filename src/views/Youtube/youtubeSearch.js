@@ -10,9 +10,15 @@ const API_KEY = 'AIzaSyBX2Vnu_4J-BKZklZ6d3Bn1T9x7p5JC8es'
 export default class Youtube extends Component {
   constructor(props) {
     super(props)
-    this.state = { videos: [] }
-    YTSearch({key: API_KEY, term: 'react redux'}, (videos) => {
-      this.setState({videos})
+    this.state = {
+      videos: [],
+      selectedVideo: null
+    }
+    YTSearch({key: API_KEY, term: 'fibromyalgia'}, (videos) => {
+      this.setState({
+        videos: videos,
+        selectedVideo: videos[0]
+      })
     })
   }
   render() {
@@ -20,7 +26,7 @@ export default class Youtube extends Component {
       <div className="container-fluid">
         <h1>Youtube Search</h1>
         <SearchBar />
-        <VideoDetail video={this.state.videos[0]} />
+        <VideoDetail video={this.state.selectedVideo} />
         <VideoList videos={this.state.videos} />
       </div>
     )
