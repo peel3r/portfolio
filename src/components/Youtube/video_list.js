@@ -1,6 +1,11 @@
-import React from 'react'
+import React, {PropTypes} from 'react'
 import VideoListItem from './videoListItem'
 const VideoList = (props) => {
+  VideoList.propTypes = {
+    onVideoSelect: PropTypes.func.isRequired,
+    videos: PropTypes.array.isRequired
+  }
+
   const videoItems = props.videos.map((video) => {
     return (
       <VideoListItem

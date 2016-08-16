@@ -1,4 +1,4 @@
-import React, {PropTypes} from 'react'
+import React from 'react'
 import sty from './videoDetail.scss'
 
 const videoDetail = ({video}) => {

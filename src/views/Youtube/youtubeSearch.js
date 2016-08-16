@@ -15,11 +15,11 @@ export default class Youtube extends Component {
       videos: [],
       selectedVideo: null
     }
-    this.videoSearch('surfboards')
+    this.videoSearch('sreact redux')
   }
 
   videoSearch(term) {
-    YTSearch({key: API_KEY, term: term}, (videos) => {
+    YTSearch({key: API_KEY, maxResults: 5, term: term}, (videos) => {
       this.setState({
         videos: videos,
         selectedVideo: videos[0]
@@ -27,10 +27,9 @@ export default class Youtube extends Component {
     })
   }
 
-
   render() {
-    const videoSearch = _.debounce((term) => {this.videoSearch(term)} ,300)
-  return (
+    const videoSearch = _.debounce((term) => { this.videoSearch(term) }, 300)
+    return (
       <div className="container">
         <div className="center-block">
         <h1>Youtube Search</h1>
@@ -45,5 +44,3 @@ export default class Youtube extends Component {
     )
   }
 }
-
-

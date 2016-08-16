@@ -1,4 +1,4 @@
-import React, {Component} from 'react'
+import React, {Component, PropTypes} from 'react'
 import sty from './style.scss'
 
 class SearchBar extends Component {
@@ -19,7 +19,10 @@ class SearchBar extends Component {
 
       )
     }
+  static propTypes = {
+    onSearchTermChange: PropTypes.func.isRequired
 
+  }
     onInputChange(term) {
       this.setState({term})
       this.props.onSearchTermChange(term)

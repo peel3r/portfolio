@@ -31,7 +31,7 @@ function renderContent (portfolio2) {
               <div className={sty.lineSeparator}>∎</div>
             </div>
             <div className={sty.description}><p>{item.description}</p></div>
-            <div className={sty.technologies}><strong>Technologies: </strong><h4>{item.technologies}</h4></div>
+            <div className={sty.technologies}><strong>Technologies: </strong><h5>{item.technologies}</h5></div>
 
             {renderLinks(item)}
           </div>

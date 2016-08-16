@@ -23,8 +23,8 @@ const projects = [
   },
   {
     name: 'Youtube Search',
-    description: "Search Wikipedia",
-    image: 'https://i.imgur.com/vMmehco.png  ',
+    description: "Search Youtube",
+    image: 'https://i.imgur.com/n5o59z5.png',
     link: 'youtube'
   },
   {
