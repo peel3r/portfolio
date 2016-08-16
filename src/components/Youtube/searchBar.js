@@ -1,5 +1,6 @@
 import React, {Component} from 'react'
 import sty from './style.scss'
+
 class SearchBar extends Component {
   constructor(props) {
     super(props)
@@ -12,11 +13,16 @@ class SearchBar extends Component {
         <div className={sty.containerbar}>
           <input
           value={this.state.term}
-          onChange={event => this.setState({term: this.target.value})}
+          onChange={event => this.onInputChange(event.target.value)}
           />
         </div>
 
       )
+    }
+
+    onInputChange(term) {
+      this.setState({term})
+      this.props.onSearchTermChange(term)
     }
 }
 export default SearchBar
